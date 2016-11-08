@@ -5,7 +5,7 @@ require('dotenv').config();
 
 var app = express();
 var API_URL = 'https://api.datamarket.azure.com/Bing/Search/v1/Image';
-var DB_URL = process.env.DB_URL;
+var DB_URL = process.env.MONGODB_URI;
 var API_KEY = process.env.API_KEY;
 
 
